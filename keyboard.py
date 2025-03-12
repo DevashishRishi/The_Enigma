@@ -13,7 +13,7 @@ class Keyboard:
 
     def draw(self, screen, x, y, w, h, font):
         #rectangle
-        r=pygame.Rect(x,y,h,w)
+        r=pygame.Rect(x,y,w,h)
         pygame.draw.rect(screen, "white", r, width=2, border_radius=15)
 
         # letters
